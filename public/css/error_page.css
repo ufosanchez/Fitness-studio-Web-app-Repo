@@ -1,0 +1,30 @@
+#error_page{
+    background-color: rgb(240, 240, 240);
+    padding: 220px 0;
+    color: black;
+    font-family: 'Fredoka One', cursive; 
+}
+#error_page section{
+    background-color: white;
+    padding: 50px 30px;
+    width: 30%; 
+    margin:auto auto;
+    border: 2px solid grey;
+}
+
+#error_page .coloredText {
+    color: blue;
+    margin-bottom:20px;
+    font-family: 'Fredoka One', cursive; 
+}
+
+#error_page button{
+    margin-top:20px;
+    background-color: rgb(247, 163, 5);
+    color: white;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Fredoka One', cursive; 
+    border: none;
+} 

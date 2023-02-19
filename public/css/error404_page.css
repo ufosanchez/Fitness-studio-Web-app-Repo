@@ -1,0 +1,20 @@
+#error404_page{
+    background-color: rgb(240, 240, 240);
+    padding: 255px 0;
+    color: black;
+    font-family: 'Fredoka One', cursive; 
+    text-align: center;
+}
+#error404_page section{
+    background-color: white;
+    padding: 50px 30px;
+    width: 30%; 
+    margin:auto auto;
+    border: 2px solid grey;
+}
+
+#error404_page .coloredText {
+    color: blue;
+    margin-bottom:20px;
+    font-family: 'Fredoka One', cursive; 
+}
