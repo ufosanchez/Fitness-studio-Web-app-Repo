@@ -1,0 +1,26 @@
+#receipts_page{
+    background-color: rgb(240, 240, 240);
+    padding: 20px 0;
+    color: black;
+    font-family: 'Fredoka One', cursive; 
+}
+
+#receipts_page h1{
+    text-align: center;
+}
+
+#receipts_page section{
+    background-color: white;
+    padding: 20px 20px;
+    width: 30%; 
+    margin:20px auto;
+    border: 2px solid grey;
+}
+#receipts_page p{
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+#receipts_page .pStyle{
+    font-family: 'Fredoka', sans-serif;
+}

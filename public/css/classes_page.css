@@ -1,0 +1,66 @@
+#classes_page {
+    background-color: black;
+    color: white;
+}
+#classes_page > h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#classes_page > p{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#classes_page .section_classespage{
+    background-color: white;
+    border-radius: 5px;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+}
+#classes_page .div_classespage{
+    padding: 10px;
+    display:grid;
+    grid-template-columns: 25% 75%;
+    column-gap:40px;
+
+}
+#classes_page .img_classes{
+    width: 100%;
+}
+
+#classes_page .color_textBlack{
+    color: black;
+    text-align: left;
+    font-family: 'Fredoka One', cursive;
+}
+
+#classes_page .coloredText {
+    display: inline;
+    color: blue;
+    font-weight: bold;
+}
+
+#classes_page .booktext {
+    margin-top: 10px;
+    width: 150px;
+    color: black;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+#classes_page .color_durationText{
+    color: black;
+    padding-top: 20px;
+    font-family: 'Fredoka One', cursive;
+    text-align: left;
+}
+
+#classes_page button{
+    margin-top: 20px;
+    padding: 5px 10px;
+}

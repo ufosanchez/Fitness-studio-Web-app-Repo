@@ -1,0 +1,61 @@
+/* Home page */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    font-family: 'Fredoka One', cursive; 
+}
+
+ul {
+    list-style-type:none;
+    padding: 20px;
+}
+
+li {
+    display:inline-block;
+    padding: 0 20px;
+
+}
+
+a{
+    color: rgb(247, 180, 13);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+i{
+    color: rgb(247, 180, 13);
+}
+
+i:hover{
+    color: white;
+}
+
+.section_primary{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+.textalign_login{
+    text-align: right;
+}
+
+h1{
+    font-family: 'Russo One', sans-serif;
+
+}
+p{
+    font-family: 'Fredoka One', cursive;
+
+}
+
+
+
+
