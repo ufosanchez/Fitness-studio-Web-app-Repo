@@ -1,0 +1,27 @@
+<main id="receipts_page">
+    <h1>List of orders</h1>
+
+    {{#each this.orderList}}
+    <section>
+        <p>Name: </p>
+        <p class="pStyle">{{this.Name}}</p>
+        <br>
+        <p>Email: </p>
+        <p class="pStyle">{{this.Email}}</p>
+        <br>
+        <p>Membership: </p>
+        <p class="pStyle">{{this.Membership}}</p>
+        <br>
+        <p>CardNumber: </p>
+        <p class="pStyle">{{this.CardNumber}}</p>
+        <br>
+        <p>ToTal: </p>
+        <p class="pStyle">$ {{this.ToTal}}</p>
+        <br>
+        <p>Order: </p>
+        <p class="pStyle">{{this.Order}}</p>
+   </section>
+   
+    {{/each}}
+        
+</main>  
